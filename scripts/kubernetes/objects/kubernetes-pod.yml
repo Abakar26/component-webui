@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app.kubernetes.io/name: ${POD_NAME}
+  name: ${POD_NAME}
+spec:
+  containers:
+    - image: ${IMAGE_NAME}
+      name: ${POD_NAME}
+      ports:
+        - containerPort: 80
+      imagePullPolicy: IfNotPresent
+  hostname: component-webui
+  restartPolicy: Always

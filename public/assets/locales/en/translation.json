@@ -1,0 +1,23 @@
+{
+  "username": "USERNAME",
+  "password": "PASSWORD",
+  "forgot_password": "Forgot username or password?",
+  "login": "LOG IN",
+  "start_header": "ias > domain",
+  "user": "User",
+  "hosts": "hosts",
+  "demands": "demands",
+  "orders": "orders",
+  "containers": "containers",
+  "activities": "activities",
+  "materials": "materials",
+  "items": "items",
+  "users": "users",
+  "locations": "locations",
+  "devices": "devices",
+  "views": "views",
+  "overview_page": "Overview page",
+  "Selected_Tab": "Selected Tab",
+  "Unselected_Tab": "Unselected Tab",
+  "container": "Container"
+}

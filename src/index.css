@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'AcuminProRegular';
+  src: local('FontsFree-Net-Acumin-Pro-Book'),
+    url('./fonts/Acumin-Pro-Regular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AcuminPro';
+  src: local('FontsFree-Net-Acumin-Pro-Book'),
+    url('./fonts/acumin-pro-wide.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AcuminProExtraLight';
+  src: local('FontsFree-Net-Acumin-Pro-Book'),
+    url('./fonts/acumin-pro-wide-light.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AcuminProLight';
+  src: local('FontsFree-Net-Acumin-Pro-Book'),
+    url('./fonts/Acumin-Pro-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AcuminProWideLight';
+  src: local('FontsFree-Net-Acumin-Pro-Book'),
+    url('./fonts/Acumin-Pro-Wide-ExtraLight.woff.ttf') format('truetype');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

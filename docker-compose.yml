@@ -1,0 +1,21 @@
+# The purpose of this file is for the creation of the docker container for component-webui
+# it uses the component-webui image built using the 'docker build' command that utilizes the
+# Dockerfile. The docker-compose.yml file provides options and specifications for the container that is
+# being created.
+
+services:
+    component-webui:
+        image: ${IMAGE_NAME_REV} # meant to be run from 'docker-build-image.sh' shell script
+        hostname: component-webui
+        container_name: component-webui
+        #environment:
+            #- REACT_APP_API_URL="http://137.116.113.162:9090" # may be temporary
+        restart: always # will auto restart if the container goes down on its own
+        ports:
+            - 3000:80
+        networks:
+            - ias_net
+networks: # connect to existing ias_net
+    ias_net:
+        name: ias_net
+        driver: bridge

@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app.kubernetes.io/name: component-webui
+  name: component-webui
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: component-webui
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations:
+      labels:
+        app.kubernetes.io/name: ${POD_NAME}
+    spec:
+      containers:
+        - image: ${IMAGE_NAME}
+          name: ${POD_NAME}
+          ports:
+            - containerPort: 80
+          imagePullPolicy: IfNotPresent
+      hostname: component-webui
+      restartPolicy: Always

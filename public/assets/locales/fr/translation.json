@@ -1,0 +1,23 @@
+{
+  "username": "NOM D'UTILISATEUR",
+  "password": "MOT DE PASSE",
+  "forgot_password": "Identifiant ou mot de passe oublié?",
+  "login": "CONNEXION",
+  "start_header": "ias > domaine",
+  "user": "Utilisateur",
+  "hosts": "hôtes",
+  "demands": "demandes",
+  "orders": "ordres",
+  "containers": "conteneurs",
+  "activities": "activités",
+  "materials": "matériaux",
+  "items": "articles",
+  "users": "utilisatrices",
+  "locations": "emplacements",
+  "devices": "dispositifs",
+  "views": "vues",
+  "overview_page": "Page de présentation",
+  "Selected_Tab": "Onglet sélectionné",
+  "Unselected_Tab": "Onglet non sélectionné",
+  "container": "Récipient"
+}
